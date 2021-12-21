@@ -32,6 +32,7 @@ x = [x[i+1]/1000000 for i in range(len(x))]
 
 plt.plot(x, y,linewidth=1)
 
+
 plt.title("OTA FW Update Power Consumption Profile",loc = 'left')
 plt.xlabel("Time Index (s)")
 plt.ylabel("Current (mA)")
